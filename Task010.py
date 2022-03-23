@@ -2,13 +2,8 @@
 
 from cmath import sqrt
 
-
-print('введите значение x для точки A')
-xA=int(input())
-print('введите значение y для точки A')
-yA=int(input())
-print('введите значение x для точки B')
-xB=int(input())
-print('введите значение y для точки B')
-yB=int(input())
+xA=int(input('введите значение x для точки A '))
+yA=int(input('введите значение y для точки A '))
+xB=int(input('введите значение x для точки B '))
+yB=int(input('введите значение y для точки B '))
 print(sqrt(((xB-xA)**2)+((yB-yA)**2)))
