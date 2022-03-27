@@ -12,10 +12,11 @@ def mix_list(items):
         i=i-1
         j=randrange(i)
         items[j], items[i]=items[i], items[j]
+        """меняются местами i и j """
     return items
 
 list=[1, 2, 3, 4, 5]
 print(f'Первоначальный список: {list}')
 print(f'Перемешанный список: {mix_list(list)}')
-    
+
 
