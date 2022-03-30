@@ -4,7 +4,7 @@ from calendar import c
 
 
 spisok_1=["qwe", "qwe", "asd", "zxc", "qwe", "ertqwe"]
-stroka_1="ertqwe"
+stroka_1="qwe"
 count=0
 print(f'Количество вхождений {spisok_1.count(stroka_1)}')
 if spisok_1.count(stroka_1)<2:
