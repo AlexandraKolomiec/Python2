@@ -13,7 +13,8 @@
 str = input("введите первую строку: ")
 str2 = input("введите вторую строку: ")
 
-print(str2.count(str))
-print(str.count(str2))
+# print(str2.count(str))
+# print(str.count(str2))
 
+print(str.count(str2))
 
